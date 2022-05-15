@@ -1,0 +1,58 @@
+/* HEADER */
+
+#header-nav .nav-link{
+    color: #adb5bd;
+}
+
+#header-nav .nav-link:hover, #header-nav .nav-link:focus {
+    color: white;
+}
+
+#comprartickets{
+    color: green;
+}
+
+#comprartickets:hover, #comprartickets:focus {
+    color: rgb(31, 160, 38);
+}
+
+/* MIDDLE-SECTION */
+
+#middle-section{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url('Images/ba1.jpg');
+    background-repeat: no-repeat;
+    background-size: 102vw;
+    background-position: bottom;
+    height: 45vw;
+    background-blend-mode:darken;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+#footer-section{
+    background-color: rgb(31, 80, 110);
+}
+#footer-nav .nav-link{
+    color: white;
+    margin: 1rem;
+}
+#footer-nav .nav-link:hover, #footer-nav .nav-link:focus {
+    color: #adb5bd;
+}
+
+#enviar-button{
+    background-color:rgb(150, 201, 62);
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
